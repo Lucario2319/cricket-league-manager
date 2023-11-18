@@ -1,0 +1,36 @@
+- Added shadcn components, form, inputs, and buttons
+-> used it to create login form (zod form schema, shadcn form)
+-> Added multiple types of field, string (length check + confirm Password check), date picker, select
+
+- Added data table to display scorecard
+
+- Styled register form with tailwind using samples from furever treasures hero section
+
+- added nested navbar in scorecard page
+
+
+
+TODOS:
+- give form inputs a set width so they don't resize when error messages are displayed
+- refactor nested navbar to work dynamically
+- tournament List component having issue with typescript, similar to that encountered before in furever treasures, refer to that to solve it later
+
+In progress:
+- Add bowling line up in scorecard
+- Make blocks and tweak adjust of tournamentList
+- Make more teams for teamList
+-> add Links, buttons and team Name (done)
+
+Todo with interim ERD:
+- should financial transactions be part of database or should it be removed altogether?
+-> if needed, then erd should reflect it
+
+- the procedure of team requests should be reflected in ERD
+
+- need to make screens to allow admin creation of tournaments and updating match schedules etc
+
+- update home screen to reflect what info is available to all
+
+- then update pages so that certain parts/pages only visible to certain user roles 
+-> hence, need to update erd to reflect login info and user roles
+
